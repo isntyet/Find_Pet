@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "412948176805",
+    "firebase_url": "https://practical-mason-97013.firebaseio.com",
+    "project_id": "practical-mason-97013",
+    "storage_bucket": "practical-mason-97013.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412948176805:android:37b47d9a9077c0ff",
+        "android_client_info": {
+          "package_name": "com.ks.hihi.haha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412948176805-b4pgn06sck96if19ndfcm094o8tmj625.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiX8Q4Nm1woGBwbNeF5sPZbl4JYJtoJ_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
