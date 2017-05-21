@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="찾아주기 등록"
+            android:text="나의펫 찾기 등록"
             android:textColor="@android:color/white"
             android:textSize="22sp" />
 
@@ -169,7 +169,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="3dp"
                                 android:gravity="center"
-                                android:text="발견한날"
+                                android:text="잃어버린날"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
@@ -263,7 +263,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="3dp"
                         android:gravity="left|center_vertical"
-                        android:text="발견당시 펫의 색상은 이랬어요"
+                        android:text="잃어버리기전 이런 색상을 가지고있어요"
                         android:textColor="@color/colorBlack"
                         android:textSize="15sp" />
 
@@ -298,7 +298,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="7dp"
                         android:gravity="left|center_vertical"
-                        android:text="제가 보기엔 종류는 이렇습니다"
+                        android:text="찾고있는 펫의 종류는 이렇습니다"
                         android:textColor="@color/colorBlack"
                         android:textSize="15sp" />
 
@@ -348,7 +348,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="3dp"
                         android:gravity="left|center_vertical"
-                        android:text="찾은 펫의 특징은요..."
+                        android:text="찾고있는 펫의 특징은요..."
                         android:textColor="@color/colorBlack"
                         android:textSize="15sp" />
 
@@ -383,7 +383,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="3dp"
                         android:gravity="left|center_vertical"
-                        android:text="발견당시 상황은 이랬어요..."
+                        android:text="잃어버릴 당시 상황은 이랬어요..."
                         android:textColor="@color/colorBlack"
                         android:textSize="15sp" />
 
@@ -419,7 +419,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="3dp"
                         android:gravity="left|center_vertical"
-                        android:text="어디서 찾았냐구요?"
+                        android:text="어디에서 잃어버렸냐구요??"
                         android:textColor="@color/colorBlack"
                         android:textSize="15sp" />
 

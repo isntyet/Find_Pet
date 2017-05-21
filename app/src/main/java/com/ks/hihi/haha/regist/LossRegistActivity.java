@@ -101,7 +101,7 @@ public class LossRegistActivity extends AppCompatActivity implements View.OnClic
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_find_regist);
+        setContentView(R.layout.activity_loss_regist);
 
         context = getApplicationContext();
 
@@ -190,8 +190,12 @@ public class LossRegistActivity extends AppCompatActivity implements View.OnClic
         String feature = etFeature.getText().toString();
         String process = etProcess.getText().toString();
 
-        String lat = SysUtill.doubleToStr(pointLocation.latitude);
-        String lng = SysUtill.doubleToStr(pointLocation.longitude);
+        String lat = "";
+        String lng = "";
+        if(pointLocation != null){
+            lat = SysUtill.doubleToStr(pointLocation.latitude);
+            lng = SysUtill.doubleToStr(pointLocation.longitude);
+        }
 
         String reg_date = SysUtill.getCurrentTodatTime();
 

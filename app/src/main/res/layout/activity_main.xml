@@ -125,6 +125,40 @@
                 android:background="#ffffff"></View>
 
             <LinearLayout
+                android:id="@+id/ll_loss_regist"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:layout_height="150dp"
+                android:background="@drawable/selector_base"
+                android:gravity="center_vertical|left"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/ic_loss" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|left"
+                    android:text="실종동물 찾기 등록\n꼭 가족을 찾길 기원합니다.."
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#ffffff"></View>
+
+            <LinearLayout
                 android:id="@+id/ll_find_regist"
                 android:layout_width="match_parent"
                 android:clickable="true"
@@ -146,39 +180,12 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
                     android:gravity="center_vertical|left"
-                    android:text="실종동물 찾기 등록\n꼭 가족을 찾길 기원합니다.."
+                    android:text="실종동물 찾아주기 등록\n당신은 천사입니까?"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     />
 
             </LinearLayout>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                app:cardCornerRadius="3dp"
-                android:background="#faf9e9">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:background="@color/colorIvory"
-                    android:gravity="center_vertical|left"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/tv_title"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorBlack"
-                        />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-
 
         </LinearLayout>
 

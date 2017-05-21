@@ -188,9 +188,11 @@ public class FindRegistActivity extends AppCompatActivity implements View.OnClic
         String feature = etFeature.getText().toString();
         String process = etProcess.getText().toString();
 
+        String lat = "";
+        String lng = "";
         if(pointLocation != null){
-            String lat = SysUtill.doubleToStr(pointLocation.latitude);
-            String lng = SysUtill.doubleToStr(pointLocation.longitude);
+            lat = SysUtill.doubleToStr(pointLocation.latitude);
+            lng = SysUtill.doubleToStr(pointLocation.longitude);
         }
 
         String reg_date = SysUtill.getCurrentTodatTime();

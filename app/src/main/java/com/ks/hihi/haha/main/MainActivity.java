@@ -10,12 +10,15 @@ import com.ks.hihi.haha.R;
 import com.ks.hihi.haha.list.ListActivity;
 import com.ks.hihi.haha.map.MapActivity;
 import com.ks.hihi.haha.regist.FindRegistActivity;
+import com.ks.hihi.haha.regist.LossRegistActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private LinearLayout llFindInMap = null;
     private LinearLayout llFindInList = null;
+    private LinearLayout llLossRegist = null;
     private LinearLayout llFindRegist = null;
+
     private BackPressCloseHandler backPressCloseHandler;
 
     @Override
@@ -31,8 +34,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         llFindInList = (LinearLayout) findViewById(R.id.ll_find_list);
         llFindInList.setOnClickListener(this);
 
+        llLossRegist = (LinearLayout) findViewById(R.id.ll_loss_regist);
+        llLossRegist.setOnClickListener(this);
+
         llFindRegist = (LinearLayout) findViewById(R.id.ll_find_regist);
         llFindRegist.setOnClickListener(this);
+
+
 
 
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -47,7 +55,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(this, ListActivity.class);
             intent.putExtra(ListActivity.EXTRA_TYPE, 0);
             startActivity(intent);
+        } else if(v.getId() == llLossRegist.getId()){
+            //찾기 등록
+            startActivity(new Intent(this, LossRegistActivity.class));
         } else if(v.getId() == llFindRegist.getId()){
+            //찾아주기 등록
             startActivity(new Intent(this, FindRegistActivity.class));
         }
     }

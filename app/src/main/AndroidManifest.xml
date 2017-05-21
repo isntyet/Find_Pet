@@ -62,8 +62,15 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateAlwaysHidden"
             >
-
         </activity>
+
+        <activity
+            android:name=".regist.LossRegistActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            >
+        </activity>
+
         <service
             android:name=".fcm.FirebaseMessagingService">
             <intent-filter>
